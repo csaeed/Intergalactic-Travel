@@ -12,6 +12,7 @@
 		D75468CF1DCA370A006F11CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D75468CD1DCA370A006F11CF /* Main.storyboard */; };
 		D75468D11DCA370A006F11CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D75468D01DCA370A006F11CF /* Assets.xcassets */; };
 		D75468D41DCA370A006F11CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D75468D21DCA370A006F11CF /* LaunchScreen.storyboard */; };
+		D79DDB2D1DCB942500FA364F /* StarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79DDB2C1DCB942500FA364F /* StarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D75468D01DCA370A006F11CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D75468D31DCA370A006F11CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D75468D51DCA370A006F11CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D79DDB2C1DCB942500FA364F /* StarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				D75468C91DCA370A006F11CF /* AppDelegate.swift */,
 				D75468CB1DCA370A006F11CF /* ViewController.swift */,
 				D75468CD1DCA370A006F11CF /* Main.storyboard */,
+				D79DDB2C1DCB942500FA364F /* StarViewController.swift */,
 				D75468D01DCA370A006F11CF /* Assets.xcassets */,
 				D75468D21DCA370A006F11CF /* LaunchScreen.storyboard */,
 				D75468D51DCA370A006F11CF /* Info.plist */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D75468CC1DCA370A006F11CF /* ViewController.swift in Sources */,
+				D79DDB2D1DCB942500FA364F /* StarViewController.swift in Sources */,
 				D75468CA1DCA370A006F11CF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +306,7 @@
 				D75468DA1DCA370A006F11CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
